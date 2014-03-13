@@ -1,0 +1,29 @@
+{
+  "name": "json5x",
+  "version": "0.0.1",
+  "description": "JSON5 for JSX",
+  "main": "json5.jsx",
+  "scripts": {
+    "test": "jsx --test --add-search-path . t/json5.jsx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yosuke-furukawa/json5x.git"
+  },
+  "keywords": [
+    "json",
+    "json5",
+    "jsx"
+  ],
+  "author": "yosuke-furukawa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yosuke-furukawa/json5x/issues"
+  },
+  "dependencies": {
+    "json5": "~0.2.0"
+  },
+  "devDependencies": {
+    "jsx": "~0.9.83"
+  }
+}
