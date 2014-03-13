@@ -1,10 +1,11 @@
 {
   "name": "json5x",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "JSON5 for JSX",
   "main": "lib/json5.jsx",
   "scripts": {
-    "test": "jsx --test --add-search-path lib t/json5.jsx"
+    "test": "jsx --test --add-search-path lib t/json5.jsx",
+    "postinstall": "npm install json5"
   },
   "repository": {
     "type": "git",
