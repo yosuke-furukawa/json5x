@@ -15,7 +15,7 @@ $ npm install json5x --save
 usage:
 
 ```js
-import "json5.jsx";
+import "json5/json5.jsx";
 
 class _Test extends TestCase {
   function testParse() : void {
