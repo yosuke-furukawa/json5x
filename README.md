@@ -9,7 +9,7 @@ Getting Started
 ===============
 
 ```shell
-$ npm install json5x --save
+$ npm install json5x -S
 ```
 
 usage:
